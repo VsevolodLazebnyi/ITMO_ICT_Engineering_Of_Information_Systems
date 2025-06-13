@@ -23,6 +23,7 @@ BigDataCountryPredictor — это веб-приложение для работ
 
 
 ## 🏛️ Архитектура проекта
+```
 ├── BigDataApplication
 │   ├── data
 │   ├── data_preprocessing.py
@@ -72,3 +73,4 @@ BigDataCountryPredictor — это веб-приложение для работ
     │   └── views
     │       └── Dashboard.vue
     └── vite.config.js
+```
