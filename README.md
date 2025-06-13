@@ -24,15 +24,10 @@ BigDataCountryPredictor — это веб-приложение для работ
 
 ## 🏛️ Архитектура проекта
 ```
-├── BigDataApplication
-│   ├── data
-│   ├── data_preprocessing.py
-│   ├── model_prediction.py
-│   ├── preprocessing.ipynb
-│   └── requirements.txt
-├── README.md
+project
 ├── backend
 │   ├── app
+│   │   ├── __init__.py
 │   │   ├── data_processing.py
 │   │   ├── database.py
 │   │   ├── main.py
@@ -40,37 +35,33 @@ BigDataCountryPredictor — это веб-приложение для работ
 │   ├── preprocessed_cache
 │   │   └── data_cache.db
 │   └── requirements.txt
-└── world_analyze_project
-    ├── README.md
+└── frontend
     ├── index.html
     ├── jsconfig.json
     ├── package-lock.json
     ├── package.json
-    ├── public
-    │   └── favicon.ico
-    ├── src
-    │   ├── App.vue
-    │   ├── assets
-    │   │   ├── base.css
-    │   │   ├── images
-    │   │   │   └── logo.png
-    │   │   ├── logo.svg
-    │   │   └── main.css
-    │   ├── components
-    │   │   ├── CountrySelector.vue
-    │   │   ├── FileUpload.vue
-    │   │   ├── Footer.vue
-    │   │   ├── ForecastChart.vue
-    │   │   ├── Header.vue
-    │   │   └── SeriesSelector.vue
-    │   ├── main.js
-    │   ├── pages
-    │   │   └── Main.vue
-    │   ├── router
-    │   │   └── index.js
-    │   ├── store
-    │   │   └── index.js
-    │   └── views
-    │       └── Dashboard.vue
-    └── vite.config.js
+    └── src
+        ├── App.vue
+        ├── assets
+        │   ├── base.css
+        │   ├── images
+        │   │   └── logo.png
+        │   ├── logo.svg
+        │   └── main.css
+        ├── components
+        │   ├── CountrySelector.vue
+        │   ├── FileUpload.vue
+        │   ├── Footer.vue
+        │   ├── ForecastChart.vue
+        │   ├── Header.vue
+        │   └── SeriesSelector.vue
+        ├── main.js
+        ├── pages
+        │   └── Main.vue
+        ├── router
+        │   └── index.js
+        ├── store
+        │   └── index.js
+        └── views
+            └── Dashboard.vue
 ```
